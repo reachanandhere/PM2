@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name" : "Project 1",
+            "script" : "app.js",
+            "watch" : true,
+            "instances": 1,
+            "exec_mode": "cluster"
+        }
+    ]
+}
