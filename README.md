@@ -11,3 +11,7 @@ PM2 Commands:
 This instance will not have the changes made. Then the server will need to be restarted
 6. pm2 restart app / {id}
 7. pm2 delete 0
+
+When you use restart, pm2 kills and restarts all the processes at the same time. There is a short period of time during which the service is unavailable.
+
+With reload, pm2 restarts all processes one by one, always keeping at least one process running:
